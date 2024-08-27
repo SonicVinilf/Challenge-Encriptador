@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es_MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador De Texto</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+    <header>
+        <a href="#" class="a-logo">
+            <img src="./assets/Logo.png" alt="logo de Alura" class="logo_alura">
+        </a>
+    </header>
+    <main class="fondo">
+        <section class="presentacion_base">
+            <section class="presentacion_base_encriptador">
+                <h1>ENCRIPTADOR DE TEXTO</h1>
+                <textarea class="encriptar" placeholder="Ingrese el texto aquí..."></textarea>
+                <div class="aviso_de_validador">
+                    <img src="./assets/PhWarningCircleFill.svg" alt="imagen aviso" class="img_aviso">
+                    <p class="texto_aviso">
+                        Solo palabras en minusculas y sin acento. (Desencripte el texto una vez más si el mismo no corresponde con el original)
+                    </p>
+                </div>
+                <div class="encriptador_contenido">
+                    <button type="submit" class="btn_encriptar">
+                        Encriptar
+                    </button>
+                    <button type="submit" class="btn_desencriptar">
+                        Desencriptar
+                    </button>
+                </div>               
+            </section> 
+            <section class="tarjeta">
+                <textarea type = "mensaje" class="evaluar" readonly></textarea>
+                <div class="tarjeta_contenido">
+                    
+                    <p class="texto_uno">No se ha escrito ningún mensaje</p>
+                    <p class="texto_dos">Ingresa el texto que deseas encriptar o desencriptar. </p>
+                    <img src="./assets/Muñeco.png" alt="imagen de muñeco" class="img_muñeco">
+                    
+                </div>
+                
+                <button type="submit" class="btn_copiar"> Copiar </button>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <p class="copyR">&copy; Encriptador de texto - Desarrollado por SonicVinilf
+        </p>       
+    </footer>
+
+    <script src="./app.js"></script>
+
+</body>
+</html>
